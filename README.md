@@ -20,7 +20,7 @@ The overarching question framing our project is **what inequities can be reveale
 
  * The article, [_The Prevalence of Fatal Police Shootings by U.S. Police, 2015-2016: Patterns and Answers From a New Data Set_](https://www.sciencedirect.com/science/article/abs/pii/S0047235217301344), compares national fatal police shooting incidence data to U.S fatal police shootings. The findings suggest fatalities are stable across the years nationally. However, data does show that Black people are fatally shot at higher rates in the U.S.
 
- * The article, [_Police Violence, Use of Force Policies, and Public Health_](https://www.law.berkeley.edu/wp-content/uploads/2018/03/Paper-Obasogie.pdf), takes note that police brutality has different implications and health impacts for different communities. Communities of color experience higher rates of harmful health outcomes and killings as a result of flawed use of police force. Changing police force policies is an important step in decreasing violence and death -- both public health issues. 
+ * The article, [_Police Violence, Use of Force Policies, and Public Health_](https://www.law.berkeley.edu/wp-content/uploads/2018/03/Paper-Obasogie.pdf), takes note that police brutality has different implications and health impacts for different communities. Communities of color experience higher rates of harmful health outcomes and killings as a result of flawed use of police force. Changing police force policies is an important step in decreasing violence and death -- both public health issues.
 
 ## Our Datasets
 
@@ -33,3 +33,29 @@ The overarching question framing our project is **what inequities can be reveale
  For this project, we are planning to compile a shiny app for viewers to interact with. There are a few obstacles that we foresee coming up during the data collection process. First, statistics on this topic are constantly updating, so finding accurate data may be difficult. Finding information on police officer outcomes after shootings will also be difficult since that data may not be readily available to the public. Finally, the data sets we have found contain many unknown cells, so it will be hard to accurately categorize these individuals.
 
  As far as the entire project goes, cleaning the data will be a larger challenge we will encounter. The datasets we will be using contain a lot of information to sort through. We will also have to tell a concise and clear story with the data, which is a new skill that will stretch our critical-thinking. A technical skill that we will specifically work on for this project is data prepping. More specifically, we will have to narrow down and clean our data to contain only relevant variables. We will also have to review how to create interactive data visualizations that are easy for viewers to use.
+
+ # Exploratory Analysis
+
+ ## Instructions
+ you will create a well formatted document using R Markdown to perform an exploratory data analysis of the datasets you have found. In particular, you will both visually and statistically (e.g., means, medians, correlations, etc.) assess:
+
+The distribution of pertinent variables of interest
+The relationship between variables of interest
+In doing so, you should think of this as a way to introduce your dataset to a reader. You can use information from your project proposal to lightly frame the datasets, and you should highlight specific information of interest and relationships you have uncovered.
+
+Importantly, throughout the document you should be sure to use the appropriate health metrics and vocabulary to describe your datasets.
+
+## To-Do List
+* 2 graphics showing the distribution of variables
+* **Do statistical testing to be able to speak on the distribution of variables (e.g. mean, st. dev., ranges)**
+* Write about distribution findings
+* **Choose a dependent and multiple independent variables to focus on in this part**
+* 2 different types of graphics showing relationship of variables to DV
+* Write about relationship findings
+* Compile all of this into R markdown file
+* **Use appropriate health metrics and vocabulary (e.g. ylls, ylds, dalys, specific mortality rates, etc.)**
+
+#### Meeting 1 Decisions
+* Each person will take one graph
+* IVs: Race, Gender, and Location
+* DVs: Health Metrics (Mortality Rates, YLLs)
