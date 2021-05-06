@@ -58,4 +58,10 @@ Importantly, throughout the document you should be sure to use the appropriate h
 #### Meeting 1 Decisions
 * Each person will take one graph
 * IVs: Race, Gender, and Location
-* DVs: Health Metrics (Mortality Rates, YLLs)
+* DVs: Frequency of Fatal Shootings (e.g. mortality)
+
+### Assignments
+* Dainese: 1 distribution graphic + interpretation
+* Yuhaniz: 1 relationship graphic + interpretation
+* Morgan: 1 distribution graphic + interpretation; compile into R markdown
+* Karen: 1 relationship graphic + interpretation
