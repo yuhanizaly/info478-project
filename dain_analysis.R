@@ -3,9 +3,6 @@ library("tidyr")
 library("ggplot2")
 library("plotly")
 
-#Distribution of Race of victims across years
-
-#mean, sd, median
 
 victim_race_data <- read.csv("police_killings_MPV.csv")
 victim_race_data <- victim_race_data %>%
