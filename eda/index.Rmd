@@ -1,0 +1,23 @@
+---
+title: "Exploratory Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("knitr")
+library("HSAUR")
+library("MASS")
+library("Epi")
+library("epitools")
+library("dplyr")
+library("ggplot2")
+library("plotly")
+library("tidyr")
+```
+
+Team: Yuhaniz, Morgan, Dainese, and Karen
+
+
+### Distribution of Variables
+
