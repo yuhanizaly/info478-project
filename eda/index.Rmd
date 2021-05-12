@@ -18,6 +18,11 @@ library("tidyr")
 
 Team: Yuhaniz, Morgan, Dainese, and Karen
 
+## Introduction
+***
+In our exploratory data analysis, we further investigate the racial inequalities and inequities around police violence in the United States by looking at the distribution of the average number of fatal shootings and the distribution of the race of victims by proportion. We will analyze the relationship between age and race of victims in police shootings and the relationship between the average annual police homicide rate of Black people and White people to discover and highlight possible patterns or relationships of interest.
+
+
 
 ## Distribution of Variables
 ***

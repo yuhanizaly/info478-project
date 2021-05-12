@@ -29,7 +29,8 @@ homicide_plot <- ggplot(df_edit) +
   labs(title = "Average Annual Police Homicide Rate between Black and White
         People",
        x = "Police Homicide Rate for Black People",
-       y = "Police Homicide Rate for White People"
+       y = "Police Homicide Rate for White People",
+       caption = "Source: Mapping Police Violence"
   )
   
 

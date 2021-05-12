@@ -25,7 +25,8 @@ totalprop_race <- ggplotly(ggplot(data = totalvictims_race,
                              theme(axis.text.x = element_text(angle = 90,
                                                               hjust = 1)) +
                              labs(title = "Proportion of Victims in Police
-                             Killings by Race from 2013-2020"))
+                             Killings by Race from 2013-2020",
+                                  caption ="Source: Mapping Police Violence"))
 
 #From the data given we can see that the top 3 races of victims in police
 #killings from 2013 to 2020 are White (44%), Black (25.2%) and Hispanic (17.2%).
