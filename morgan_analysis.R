@@ -20,8 +20,14 @@ boxplot <- ggplot(boxplot_data, aes(x = as.character(year), y = total, group = a
   labs(
     title = "Average Number of Fatal Shootings by Police Across the U.S.",
     x = "Year",
-    y = "Number of Fatal Shootings"
+    y = "Number of Fatal Shootings",
+    caption = "Source: Washington Post - Data Police Shootings"
   ) +
   theme(legend.position = "none")
-#use fig.cap argument in r markdown to add that data points represent individual states
 
+# Over the years, the average number of fatal shootings by police offers has remained relatively consistent.
+#What is most interesting about the way fatal shootings have been distributed across years is that the outlier amounts have changed drastically from year to year.
+#Each point represents an individual state, which means that certain states do fluctuate a lot in their fatal shooting rate.
+#It is also interesting to note that in 2020, there was a lower number of fatal shootings, despite the increased attention to police brutality and the Black Lives Matter movement.
+#Part of this may be due to the fact that the pandemic impacted the number of shootings that occurred in general.
+#This graph also represents the national average, and does not take into account inequality, which has been one of the primary issues in policy brutality.
