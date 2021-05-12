@@ -34,9 +34,6 @@ homicide_plot <- ggplot(df_edit) +
   )
   
 
-#Interactive scatter plot
-homicide_plot_interactive <- ggplotly(homicide_plot)
-
 #Analysis
 #This scatter plot shows that the average annual police homicide rate between
 #Black and White people are not proportional. All the points, or states, under

@@ -20,7 +20,7 @@ Team: Yuhaniz, Morgan, Dainese, and Karen
 
 ## Introduction
 ***
-In our exploratory data analysis, we further investigate the racial inequalities and inequities around police violence in the United States by looking at the distribution of the average number of fatal shootings and the distribution of the race of victims by proportion. We will analyze the relationship between age and race of victims in police shootings and the relationship between the average annual police homicide rate of Black people and White people to discover and highlight possible patterns or relationships of interest.
+In our exploratory data analysis, we further investigated the racial inequalities and inequities around police violence in the United States by looking at the distribution of the average number of fatal shootings and the distribution of the race of victims by proportion. We also analyzed the relationship between age and race of victims in police shootings and the relationship between the average annual police homicide rate of Black people and White people to discover and highlight possible patterns or relationships of interest.
 
 
 
@@ -28,12 +28,13 @@ In our exploratory data analysis, we further investigate the racial inequalities
 ***
 
 
-### Distribution of 
+### Distribution of Fatal Shootings from 2015-2020
 ```{r, echo=FALSE, message=FALSE}
 source("../morgan_analysis.R", chdir = TRUE)
 boxplot
 ```
 
+Over the years, the average number of fatal shootings by police offers has remained relatively consistent. What is most interesting about the way fatal shootings have been distributed across years is that the outlier amounts have changed drastically from year to year. Each point represents an individual state, which means that certain states do fluctuate a lot in their fatal shooting rate. It is also interesting to note that in 2020, there was a lower number of fatal shootings, despite the increased attention to police brutality and the Black Lives Matter movement. Part of this may be due to the fact that the pandemic impacted the number of shootings that occurred in general. This graph also represents the national average, and does not take into account inequality, which has been one of the primary issues in policy brutality.
 
 
 
@@ -44,7 +45,7 @@ totalprop_race
 ```
 
 
-This graph shows the proportion of victims in police shootings by race.From the data given we can see that the top 3 races of victims in police killings from 2013 to 2020 are White (44%), Black (25.2%) and Hispanic (17.2%). This could be due to a variety of reasons such as geographic location, race demographics, and number of crimes committed by race. Low proportions in victims of certain races such as Asians and Native Americans could be explained by small population numbers from people of that race.
+This graph shows the proportion of victims in police shootings by race. From the data given, we can see that the top 3 races of victims in police killings from 2013 to 2020 are White (44%), Black (25.2%) and Hispanic (17.2%). This could be due to a variety of reasons such as geographic location, demographic characteristics, and number of crimes committed by race. Lower proportions of victims for certain races such as Asians and Native Americans could be explained by small population numbers or cultural differences that lead to less police shootings.
 
 
 
@@ -62,7 +63,7 @@ stacked_bar_chart
 ```
 
 
-This graph displays the relationship between age and race on police shootings. It is clear to see that younger age groups (typically between the ages of 22-36 years) have a higher burden of shootings. Moreover, the two racial groups with the most shootings are Black and White individuals. As age increases past 36 years, the number of shootings begin to drop. However, theR racial pattern of these shootings remains stable across. 
+This graph displays the relationship between age and race on police shootings. It is clear to see that younger age groups (typically between the ages of 22-36 years) have a higher burden of shootings. Moreover, the two racial groups with the most shootings are Black and White individuals. As age increases past 36 years, the number of shootings begin to drop. However, the racial pattern of these shootings remains stable across. 
 
 
 ### Relationship between Average Annual Police Homicide Rates between Black and White People
@@ -70,7 +71,7 @@ This graph displays the relationship between age and race on police shootings. I
 
 ```{r, echo=FALSE, message=FALSE}
 source("../yuh_analysis.R", chdir = TRUE)
-homicide_plot_interactive
+homicide_plot
 ```
 
 
