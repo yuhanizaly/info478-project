@@ -32,3 +32,11 @@ stacked_bar_chart <- ggplot(filtered_table, aes(age)) +
 
 
 stacked_bar_chart
+
+#Analysis:
+#This graph displays the relationship between age and race on police shootings.
+#It is clear to see that younger age groups (typically between the ages of
+#22-36 years) have a higher burden of shootings. Moreover, the two racial
+#Groups with the most shootings are Black and White individuals. As age 
+#Increases past 36 years, the number of shootings begin to drop. However, the
+#Racial pattern of these shootings remains stable across. 
