@@ -19,13 +19,11 @@ library("tidyr")
 Team: Yuhaniz, Morgan, Dainese, and Karen
 
 ## Introduction
-***
 In our exploratory data analysis, we further investigated the racial inequalities and inequities around police violence in the United States by looking at the distribution of the average number of fatal shootings and the distribution of the race of victims by proportion. We also analyzed the relationship between age and race of victims in police shootings and the relationship between the average annual police homicide rate of Black people and White people to discover and highlight possible patterns or relationships of interest.
 
 
 
 ## Distribution of Variables
-***
 
 
 ### Distribution of Fatal Shootings from 2015-2020
@@ -51,7 +49,6 @@ This graph shows the proportion of victims in police shootings by race. From the
 
 
 ## Relationship between Variables
-***
 
 
 ### Relationship between Age and Race on Police Shootings
