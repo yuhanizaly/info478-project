@@ -19,13 +19,11 @@ library("tidyr")
 Team: Yuhaniz, Morgan, Dainese, and Karen
 
 ## Introduction
-***
 In our exploratory data analysis, we further investigated the racial inequalities and inequities around police violence in the United States by looking at the distribution of the average number of fatal shootings and the distribution of the race of victims by proportion. We also analyzed the relationship between age and race of victims in police shootings and the relationship between the average annual police homicide rate of Black people and White people to discover and highlight possible patterns or relationships of interest.
 
 
 
 ## Distribution of Variables
-***
 
 
 ### Distribution of Fatal Shootings from 2015-2020
@@ -51,7 +49,6 @@ This graph shows the proportion of victims in police shootings by race. From the
 
 
 ## Relationship between Variables
-***
 
 
 ### Relationship between Age and Race on Police Shootings
@@ -75,4 +72,4 @@ homicide_plot
 ```
 
 
-This scatter plot shows that the average annual police homicide rate between Black and White people are not proportional. All the points, or states, under the line means that the average annual police homicide rate is greater among Black people than White people. The points above the line means that police homicide rate is greater among White people than Black people. The graph shows that three states, Hawaii, Kansas, and Alabama, have higher rates of police homicide among White people than Black people. However, the majority of states have much more incidents of higher rates of police homicide for Black people, as well as a rate of a higher degree.
+This scatter plot shows that the average annual police homicide rate between Black and White people are not proportional. All the points, or states, under the line means that the average annual police homicide rate is greater among Black people than White people. The points above the line means that police homicide rate is greater among White people than Black people. The graph shows that three states have higher rates of police homicide among White people than Black people. However, the majority of states have much more incidents of higher rates of police homicide for Black people, as well as a rate of a higher degree.
