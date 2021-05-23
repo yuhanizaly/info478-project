@@ -34,7 +34,8 @@ final_data_long <-
        id.vars = 1)
 
 
-#interactive visualization
+#interactive visualization: compare population's race proportions with
+#victims race proportion to see inequality
 grouped_bar_chart<- ggplotly(
   ggplot(data = final_data_long, aes(x = race, y= value)) +
     geom_bar(aes(fill = variable), stat = "identity", position = "dodge") +
