@@ -7,6 +7,7 @@ library(dplyr)
 
 data <- read.csv("../shootings_wash_post.csv")
 victim_data <- read.csv("victim_race_data.csv")
+deatharrests_data <- read.csv("../deaths_arrests.csv")
 
 #make dataframe for proportion of race according to US census:
 #https://www.census.gov/quickfacts/fact/table/US/PST045219
@@ -26,6 +27,11 @@ totalvictims_race <- victim_data %>%
   summarize(totalnum = n()) %>%
   mutate(proportion = (totalnum / sum(totalnum)) * 100) 
 
+
+deathvictims <- deatharrests_data %>%
+  group_by(State) %>%
+  
+  
 
 #combine the data sets
 final_data <- merge(totalvictims_race, population_race,by= "Victim.s.race")
