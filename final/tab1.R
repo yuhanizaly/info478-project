@@ -1,9 +1,11 @@
 library(tidyverse)
 library(plotly)
+library(ggplot2)
 install.packages("reshape2")
 library(reshape2)
+library(dplyr)
 
-data <- read.csv("shootings_wash_post.csv")
+data <- read.csv("../shootings_wash_post.csv")
 victim_data <- read.csv("victim_race_data.csv")
 
 #make dataframe for proportion of race according to US census:
