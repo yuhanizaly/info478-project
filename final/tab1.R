@@ -96,7 +96,6 @@ chart<-
       theme(legend.position = "none"))
 
 
-
 #IDEAS FOR ANALYSIS:
 #Even though Black people only take up 13.4% of the population, they take up
 #27.97% of the victims, showing racial inequality in terms of police shootings
