@@ -39,7 +39,7 @@ side_three <- sidebarPanel(
 )
 
 main_three <- mainPanel(
-  plotlyOutput("tab3_graph")
+  plotOutput("tab3_graph")
 )
 
 page_three <- tabPanel(
