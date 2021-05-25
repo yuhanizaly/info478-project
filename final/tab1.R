@@ -91,7 +91,8 @@ chart<-
       title ="Proportion of Race Population vs. Proportion of Race of Victims",
       x = "Race",
       y = "Proportion (in Percent)",
-      caption ="Source: Death Arrests"))
+      caption ="Source: Death Arrests") +
+      theme(legend.position = "none"))
 
 
 
