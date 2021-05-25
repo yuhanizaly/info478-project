@@ -84,8 +84,9 @@ plot_data_transpose <-  plot_data_transpose[-c(1),]
 colnames(plot_data_transpose) <- c("percent", "proportion")
 
 chart<-
-  ggplotly(ggplot(data = plot_data_transpose, aes(x = proportion, y = percent)) +
-    geom_bar(aes(fill = percent), stat = "identity", position = "dodge") +
+  ggplotly(ggplot(data = plot_data_transpose, aes(x = proportion, y = percent,
+                                                  fill = percent)) +
+    geom_bar(stat = "identity", position = "dodge") +
     theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
     labs(
       title ="Proportion of Race Population vs. Proportion of Race of Victims",
