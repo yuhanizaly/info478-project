@@ -16,7 +16,7 @@ page_two <-
 # page three content here
 side_three <- sidebarPanel(
   selectInput(inputId = "race.1",
-              label = h3("First Race of Comparison"),
+              label = h3("Race 1"),
               c("White" = "W",
                 "Asian" = "A",
                 "Black" = "B",
@@ -25,7 +25,7 @@ side_three <- sidebarPanel(
                 "Native American" = "N")
               ),
   selectInput(inputId = "race.2",
-              label = h3("Second Race of Comparison"),
+              label = h3("Race 2"),
               c("White" = "W",
                 "Asian" = "A",
                 "Black" = "B",
@@ -34,12 +34,13 @@ side_three <- sidebarPanel(
                 "Native American" = "N")
               ),
   selectInput(inputId = "bodycam",
-                label = "Used a Body Camera",
-              c("Yes", "No"))
+                label = h3("Used a Body Camera"),
+              c("Yes" = "TRUE",
+                "No" = "FALSE"))
 )
 
 main_three <- mainPanel(
-  plotOutput("tab3_graph")
+  plotlyOutput("tab3_graph")
 )
 
 page_three <- tabPanel(
