@@ -1,17 +1,20 @@
 library("shiny")
 library("tidyverse")
 library("plotly")
-
+library("reshape2")
 
 # Intro page
 page_one <- tabPanel(
   "Page 1"
 )
 
-page_two <-
-  tabPanel(
-    "Page 2"
+page_two <- tabPanel(
+  "Is there Racial Inequality in Victims of Police Shootings",
+  plotlyOutput("tab2_graph"),
+  "In this graph, we compare the race proportions of the population with
+  the race proportions of the victims killed in police shootings."
 )
+
 
 # page three content here
 side_three <- sidebarPanel(
