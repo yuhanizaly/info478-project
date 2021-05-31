@@ -1,0 +1,65 @@
+h1 {
+  color: white;
+  font-family: "Impact";
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 60px;
+  text-transform: uppercase;
+  
+}
+
+h2{
+  color: white;
+  font-family: "Monaco";
+  font-weight: bold;
+  
+}
+
+p{
+  background-color: white;
+  color: black;
+  font-family: "Verdana";
+  border-style: dashed;
+  border-width: 2px;
+  border-color: gray;
+}
+
+li{
+  color: black;
+  font-family: "Verdana";
+}
+
+ol{
+  background-color: white;
+}
+
+img {
+  border: 2px dashed white;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, gray, black);
+}
+
+a:link {
+color: blue;
+}
+
+a:visited {
+color: green;
+}
+
+a:hover {
+color: red;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+
+
