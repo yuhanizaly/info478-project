@@ -46,7 +46,8 @@ server <- function(input, output){
           title ="Proportion of Race Population vs. Proportion of Race of Victims",
           x = "Race",
           y = "Proportion (in Percent)",
-          caption ="Source: US 2019 Census & Mapping Police Violence"))
+          caption ="Source: US 2019 Census & Mapping Police Violence",
+          fill = "Type of Proportion"))
     
   })
 
