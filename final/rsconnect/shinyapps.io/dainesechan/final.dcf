@@ -1,0 +1,13 @@
+name: final
+title: final
+username:
+account: dainesechan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4215569
+bundleId: 4666267
+url: https://dainesechan.shinyapps.io/final/
+when: 1622585098.98028
+lastSyncTime: 1622585098.9803
+asMultiple: FALSE
+asStatic: FALSE

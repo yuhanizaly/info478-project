@@ -8,7 +8,7 @@ library("reshape2")
 server <- function(input, output) {
   # Page 2
   output$tab2_graph <- renderPlotly({
-    data <- read.csv("../shootings_wash_post.csv")
+    data <- read.csv("shootings_wash_post_copy.csv")
     victim_data <- read.csv("victim_race_data.csv")
 
     # make dataframe for proportion of race according to US census:
@@ -25,9 +25,9 @@ server <- function(input, output) {
 
     totalvictims_race <- victim_data %>%
       group_by(Victim.s.race) %>%
-      filter(Victim.s.race != "Unknown race") %>%
+      dplyr::filter(Victim.s.race != "Unknown race") %>%
       summarize(totalnum = n()) %>%
-      mutate(proportion = (totalnum / sum(totalnum)) * 100)
+      dplyr::mutate(proportion = (totalnum / sum(totalnum)) * 100)
 
     # combine the data sets
     final_data <- merge(totalvictims_race, population_race,
@@ -54,6 +54,7 @@ server <- function(input, output) {
           y = "Proportion (in Percent)",
           caption ="Source: US 2019 Census & Mapping Police Violence",
           fill = "Type of Proportion"))
+    grouped_bar_chart
   })
 
 
