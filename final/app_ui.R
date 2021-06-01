@@ -212,7 +212,7 @@ page_four <- tabPanel(
 page_five <- tabPanel(
   "About",
   mainPanel(
-    h2("INFO 478: Population Health Informatics (Sring 2021)"),
+    h2("INFO 478: Population Health Informatics (Spring 2021)"),
     p("Names: Yuhaniz Aly, Morgan Bryson, Dainese Chandra, Karen Garcia"),
     p("Professor: Dr. Katrtin Burkart"),
     p("TA: Jamie Costales")
