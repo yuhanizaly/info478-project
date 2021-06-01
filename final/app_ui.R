@@ -266,8 +266,9 @@ page_five <- tabPanel(
   "About",
   mainPanel(
     h2("INFO 478: Population Health Informatics (Spring 2021)"),
-    p(tags$b("Names:"), "Yuhaniz Aly, Morgan Bryson, Dainese Chandra, Karen Garcia"),
-    p(tags$b("Professor:"), "Dr. Katrtin Burkart"),
+    p(tags$b("Names:"), "Yuhaniz Aly, Morgan Bryson, Dainese Chandra,
+      Karen Garcia"),
+    p(tags$b("Professor:"), "Dr. Katrin Burkart"),
     p(tags$b("TA:"), "Jamie Costales"),
     h2("Karen Garcia"),
     tags$ul(
