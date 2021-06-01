@@ -266,9 +266,9 @@ page_five <- tabPanel(
   "About",
   mainPanel(
     h2("INFO 478: Population Health Informatics (Spring 2021)"),
-    p("Names: Yuhaniz Aly, Morgan Bryson, Dainese Chandra, Karen Garcia"),
-    p("Professor: Dr. Katrtin Burkart"),
-    p("TA: Jamie Costales"),
+    p(tags$b("Names:"), "Yuhaniz Aly, Morgan Bryson, Dainese Chandra, Karen Garcia"),
+    p(tags$b("Professor:"), "Dr. Katrtin Burkart"),
+    p(tags$b("TA:"), "Jamie Costales"),
     h2("Karen Garcia"),
     tags$ul(
       tags$li(tags$b("Major:"), "Public Health - Global Health"),
@@ -291,16 +291,7 @@ page_five <- tabPanel(
                 marginalized community is a step towards making society more
                 inclusive and equal for all.")
     ),
-    h2("Yuhaniz Aly"),
-    tags$ul(
-      tags$li(tags$b("Major:"), "Public Health - Global Health"),
-      tags$li(tags$b("Minor:"), "Informatics"),
-      tags$li(tags$b("Year:"), "Junior"),
-      tags$li(tags$b("Interest:"), "This topic interested me because I stand
-            with the #BLM movement and as an ally, I was motivated to help
-            people understand the statistics and disparities between racial
-            groups through the visual graphs.")
-    ),
+    
     h2("Morgan Bryson"),
     tags$ul(
       tags$li(tags$b("Major:"), "Psychology"),
@@ -311,6 +302,17 @@ page_five <- tabPanel(
             creating a more equitable society. I am also passionate about policy
             changes that provide justice and equality for marginalized groups of
             people.")
+    ),
+  
+      h2("Yuhaniz Aly"),
+      tags$ul(
+        tags$li(tags$b("Major:"), "Public Health - Global Health"),
+        tags$li(tags$b("Minor:"), "Informatics & Diversity"),
+        tags$li(tags$b("Year:"), "Junior"),
+        tags$li(tags$b("Interest:"), "This topic interested me because I stand
+            with the #BLM movement and as an ally, I was motivated to help
+            people understand the statistics and disparities between racial
+            groups through the visual graphs."),
     )
   )
 )
