@@ -9,7 +9,7 @@ page_one <- tabPanel(
 )
 
 page_two <- tabPanel(
-  "Is there Racial Inequality in Victims of Police Shootings",
+  "Is there Racial Inequality in Victims of Police Shootings?",
   plotlyOutput("tab2_graph"),
   "In this graph, we compare the race proportions of the population with
   the race proportions of the victims killed in police shootings."
