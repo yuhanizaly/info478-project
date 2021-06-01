@@ -1,0 +1,13 @@
+name: PoliceViolence
+title: PoliceViolence
+username:
+account: yuhanizaly
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4215317
+bundleId: 4666020
+url: https://yuhanizaly.shinyapps.io/PoliceViolence/
+when: 1622579632.08619
+lastSyncTime: 1622579632.0862
+asMultiple: FALSE
+asStatic: FALSE
