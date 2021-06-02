@@ -48,16 +48,15 @@ page_one <- tabPanel(
         ),
         "'Police Violence and Racial Equity' was accessed on
           Kaggle. The data was created and posted by John Miller, who is a
-          senior data analyst at H2O.ai from January 2015 to August 2020.
-          However the information on the dataset
+          senior data analyst at H2O.ai. However the information on the dataset
           is pulled from several different sources including the", a(
           href = "https://github.com/washingtonpost/data-police-shootings",
-          "Washington Post database"
+          "Washington Post database."
         ),
-        "This data was collected from January 2015 to August 2020. The data was
-        collected by sorting through resources like newspapers, independent
-        platforms for tracking, and police statements. In fact, they have
-        collected twice as many incidents as the FBI."
+        "The data was collected by sorting through resources like newspapers,
+        independent platforms for tracking, and police statements from January
+        2015 to August 2020. In fact, they have collected twice as many
+        incidents as the FBI."
       ),
     )
   )
