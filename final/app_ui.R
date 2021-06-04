@@ -112,7 +112,7 @@ page_two <- tabPanel(
       American groups make up the smallest percentage of the U.S population,
       they also still suffer the consequences of racial police violence, with
       higher victim proportions than their population proportions. These numbers
-      allude to police shootings being driven by racial prejudices. While Asian
+      allude to civilian fatalities being driven by racial prejudices. While Asian
       populations may be exempt from this conclusion in this data set, all other
       racial group statistics point to racial inequalities. Next steps would be
       to further explore the reasons for decreased occurrences of violence
@@ -184,7 +184,7 @@ page_three <- tabPanel(
     h2("Observations & Analysis"),
     p("This graph allows users to quickly compare which races suffer more
       consequences of police brutality. Comparing the number of White people by
-      the number of Black people killed by guns, it is evident that the number
+      the number of Black people killed, it is evident that the number
       of White people killed is higher. Still, the number of Black deaths don’t
       fall far behind the number of White deaths. However, it is important to
       note that the number of White people in the U.S is significantly higher
@@ -196,7 +196,7 @@ page_three <- tabPanel(
       that the graph uses raw numbers to display results."),
     p("Another observation from this graph is that across races police tend to
       have their body cameras off during fatal shootings. In any racial group
-      comparison, changing the filter to display the number of fatal shootings
+      comparison, changing the filter to display the number of fatalities
       that used a body camera will significantly drop the number of states and
       people killed. Moreover, using a body camera stabilizes the number of
       fatalities between races. When police have their cameras on, the number of
